@@ -5,8 +5,6 @@ import React from "react";
 
 import { BreakpointSizes, breakAt } from "./Breakpoints";
 
-const colorYellow = "#ffc107";
-
 const GlobalStyle = createGlobalStyle`
   html {
     font-family: "Poppins", sans-serif;
@@ -38,7 +36,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     strong {
-      color: ${colorYellow};
+      color: ${(props) => props.theme.colors.primary.main};
     }
   }
 
