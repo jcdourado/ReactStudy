@@ -33,7 +33,7 @@ const viewports = {
     },
   },
   small: {
-    name: "Landscape phone",
+    name: "Landscape phone (sm)",
     styles: {
       width: "640px",
       height: "360px",
