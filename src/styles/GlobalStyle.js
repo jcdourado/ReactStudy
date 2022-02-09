@@ -26,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.3;
     font-weight: 700;
     letter-spacing: 2px;
+
+    strong {
+      color: ${(props) => props.theme.colors.primary.main};
+    }
   }
 
   h1 {
@@ -33,10 +37,6 @@ const GlobalStyle = createGlobalStyle`
 
     ${breakAt(BreakpointSizes.lg)}{
       font-size: 3.75rem;
-    }
-
-    strong {
-      color: ${(props) => props.theme.colors.primary.main};
     }
   }
 
