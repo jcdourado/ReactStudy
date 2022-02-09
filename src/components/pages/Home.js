@@ -17,6 +17,7 @@ import ServImage02 from "assets/serv-02.jpg";
 import ServImage03 from "assets/serv-03.jpg";
 import ServImage04 from "assets/serv-04.jpg";
 import ServImage05 from "assets/serv-05.jpg";
+import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
 const products = [
   {
@@ -114,6 +115,27 @@ const Home = () => (
       <Heading>
         <h2>Dúvidas recorrentes</h2>
       </Heading>
+
+      <AccordionGroup>
+        <Accordion title="Como eu renovo minha CNH?">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          aliquam neque corrupti. Ab corporis ipsa perferendis doloribus earum
+          libero ex eos, quidem harum nemo soluta odio obcaecati expedita odit
+          quam.
+        </Accordion>
+        <Accordion title="Como faço a mudança de categoria?">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          aliquam neque corrupti. Ab corporis ipsa perferendis doloribus earum
+          libero ex eos, quidem harum nemo soluta odio obcaecati expedita odit
+          quam.
+        </Accordion>
+        <Accordion title="Fui mutado, e agora?">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+          aliquam neque corrupti. Ab corporis ipsa perferendis doloribus earum
+          libero ex eos, quidem harum nemo soluta odio obcaecati expedita odit
+          quam.
+        </Accordion>
+      </AccordionGroup>
     </Section>
     <Footer />
   </>
