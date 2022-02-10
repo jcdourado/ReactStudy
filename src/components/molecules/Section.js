@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 
 import Container from "components/atoms/Container";
 
+import { breakAt, BreakpointSizes } from "styles/Breakpoints";
+
 const Content = styled.div`
   padding: 40px 0;
   ${(props) =>
@@ -14,6 +16,10 @@ const Content = styled.div`
 
   h2 {
     margin-top: 0;
+  }
+
+  ${breakAt(BreakpointSizes.md)} {
+    padding: 80px 0;
   }
 `;
 

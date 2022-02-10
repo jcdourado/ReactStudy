@@ -107,7 +107,7 @@ const Home = () => (
           <Button color="primary">Saiba Mais</Button>
         </div>
         <div>
-          <video src={AboutVideo} width="100%" autoPlay loop />
+          <video src={AboutVideo} width="100%" autoPlay loop muted />
         </div>
       </Grid>
     </Section>
